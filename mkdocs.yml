@@ -1,0 +1,50 @@
+site_name: MkDocs Template
+repo_url: https://gitlab.com/rosswickman/mkdocs
+repo_name: rosswickman/mkdocs
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.tabs.sticky
+    - toc.follow
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: lime
+      accent: indigo
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: lime
+      accent: indigo
+  icon:
+    edit: material/file-edit-outline
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/rosswickman
+      name: Follow on Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/RossWickman
+      name: Follow on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/rosswickman
+      name: Follow on GitHub
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/rosswickman
+      name: Follow on GitLab
+nav:
+  - Home: index.md
+  - General: general.md
+  - Groups:
+      - sub-pages/index.md
+      - Sub1: sub-pages/sub1.md
+  - Contact: contact.md
